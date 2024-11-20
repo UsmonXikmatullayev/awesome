@@ -1,0 +1,293 @@
+@media (min-width: 320px) and (max-width: 768px) {
+    nav {
+        margin: 20px auto;
+        position: sticky;
+        background-color: white;
+        z-index: 999;
+    }
+    .nav-item {
+        display: none;
+    }
+    .container {
+        max-width: 768px;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .nav-logo {
+        width: 138.44px;
+        height: 33px;
+    }
+    .menu-btn {
+        width: 28px;
+        height: 28px;
+    }
+    header {
+        margin-top: 0;
+    }
+    .leftbar {
+        width: 313px;
+        height: 206px;
+        position: relative;
+        margin-top: 80px;
+        gap: 15px;
+    }
+    .hero {
+        margin: 0 auto;
+        padding: 0;
+    }
+    .rightbar {
+        display: none;
+    }
+    .leftbar-name {
+        width: 313px;
+        height: 55px;
+        font-family: Inter;
+        font-size: 24px;
+        line-height: 27.84px;
+    }
+    .leftbar-desc {
+        font-family: Inter;
+        font-size: 10px;
+        line-height: 13.2px;
+    }
+    .gradient {
+        width: 62.67px;
+        height: 49.06px;
+        position: absolute;
+        border-radius: 50%;
+        top: -20px;
+        left: 40%;
+        background: linear-gradient(
+            197.92deg,
+            #ef8031 -227.37%,
+            rgba(239, 128, 49, 0.307045) 1.58%,
+            rgba(239, 128, 49, 0) 103.02%
+        );
+    }
+    .all-btn {
+        width: 224.85px;
+        height: 50px;
+    }
+    .all-btn .get-btn__name {
+        width: 104.76px;
+        height: 10px;
+        font-family: Inter;
+        font-size: 10px;
+        line-height: 12.55px;
+    }
+    .about {
+        flex-direction: column;
+        gap: 59px;
+        margin-top: 114px;
+    }
+    .about-gradient {
+        width: 400px;
+        height: 68px;
+        padding: 10px 0;
+        top: -50px;
+        left: -170px;
+    }
+    .about-gradient__name {
+        font-family: Inter;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 15.73px;
+        text-align: center;
+        margin-left: 50px;
+    }
+    .about-gradient__title {
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 22px;
+        text-align: center;
+        margin-top: 5px;
+        margin-left: 118px;
+    }
+    .about-left__desc {
+        margin-top: 25px;
+        width: 258px;
+        height: 52px;
+        font-family: Inter;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 13.2px;
+        letter-spacing: 0.04em;
+        text-align: left;
+    }
+    .about-right {
+        gap: 30px;
+        width: 311px;
+        margin: 0 auto;
+    }
+    .about-card {
+        padding: 15px;
+        width: 135px;
+        height: 127.61px;
+        border-radius: 4.31px;
+    }
+    .card-icon {
+        width: 25.33px;
+        height: 25.33px;
+        border-radius: 4.31px;
+        margin-bottom: 8px;
+    }
+    .card-icon img {
+        width: 12.92px;
+        height: 12.92px;
+    }
+    .about-card h4 {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 13.92px;
+        text-align: left;
+        color: rgba(51, 51, 51, 1);
+        margin-bottom: 3px;
+    }
+    .about-card__desc {
+        width: 123.46px;
+        height: 27.35px;
+        font-size: 8px;
+        font-weight: 400;
+        line-height: 10.56px;
+        letter-spacing: 0.04em;
+        text-align: left;
+    }
+    .cases {
+        margin-top: 57px;
+    }
+    .case-name {
+        font-size: 13px;
+        line-height: 15px;
+        margin-bottom: 10px;
+    }
+    .case-title {
+        font-size: 20px;
+        line-height: 22px;
+        margin-bottom: 16px;
+    }
+    .case-cards {
+        gap: 10px;
+    }
+    .case-card-n {
+        display: none;
+    }
+    .case-card {
+        width: 157.09px;
+        height: 147.49px;
+        border-radius: 4px;
+        padding: 34px 25px 36px;
+    }
+    .case-card img {
+        width: 27px;
+        height: 27px;
+        margin-bottom: 11px;
+    }
+    .case-card__name {
+        font-size: 10px;
+        line-height: 11px;
+    }
+    .case-card__desc {
+        font-size: 4px;
+        line-height: 10px;
+        letter-spacing: 0.04em;
+        margin-top: 2px;
+    }
+    .contact-left {
+        display: none;
+    }
+    .contact {
+        width: 100%;
+        margin-top: 120px;
+    }
+    .contact-right {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .contact-right__name {
+        font-size: 13px;
+        line-height: 15px;
+        margin-bottom: 8px;
+    }
+    .contact-right__title {
+        font-size: 22px;
+        line-height: 24px;
+        margin-bottom: 16px;
+    }
+    .contact-right__desc {
+        width: 330px;
+        font-size: 10px;
+        line-height: 13px;
+    }
+    .store {
+        margin-top: 100px;
+    }
+    .double {
+        display: none;
+    }
+    .store-name {
+        font-size: 13px;
+        line-height: 15.73px;
+        margin-bottom: 7px;
+    }
+    .store-title {
+        font-size: 28px;
+        line-height: 30px;
+    }
+    .store-card {
+        height: 271px;
+        padding: 16px 30px 20px 31px;
+    }
+    .store-card img {
+        width: 107.98px;
+        height: 173.74px;
+    }
+
+    .store-card__author2 {
+        font-size: 10px;
+        line-height: 13px;
+    }
+    .store-card__author1 {
+        font-size: 12px;
+        line-height: 13px;
+    }
+    .store-card__desc {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .foter {
+        flex-wrap: wrap;
+    }
+    footer {
+        padding: 40px 0;
+    }
+    .foterlogo-item {
+        margin-bottom: 40px;
+    }
+    .foterlogo {
+        width: 240px;
+    }
+    .foterlogo img {
+        width: 138.44px;
+    }
+    form{
+        margin-top: 40px;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    .menu-btn {
+        display: none;
+    }
+    .gradient {
+        display: none;
+    }
+}
+@media (min-width: 1025px) and (max-width: 1920px) {
+    .menu-btn {
+        display: none;
+    }
+    .gradient {
+        display: none;
+    }
+}
